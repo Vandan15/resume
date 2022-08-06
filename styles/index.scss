@@ -1,0 +1,131 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap");
+
+* {
+    font-family: "Comic Neue", cursive;
+}
+body {
+    padding: 5px 16px;
+    // background: #e7e7e7;
+}
+.main-wrapper {
+    .text-super {
+        font-size: 13px;
+        text-align: center;
+        background-color: #dfb777;
+        width: 210px;
+        border-radius: 15px;
+        margin: 0 auto;
+        font-weight: bold;
+        color: #fff;
+        padding: 8px 8px;
+        letter-spacing: 5px;
+        width: 300px;
+        text-transform: uppercase;
+    }
+    .text-title {
+        font-family: "Oswald", sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    .service-section {
+        .card-title {
+            font-size: 26px;
+            font-family: "Oswald", sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .wrapper-box {
+            .text-box {
+                font-size: 18px;
+                font-family: "Oswald", sans-serif;
+                font-family: "Comic Neue", cursive;
+                font-weight: bold;
+                margin-left: 10px;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        .btn-chat {
+            background-color: #dfb777;
+            color: #fff;
+            padding: 8px 16px;
+            font-weight: bold;
+            border: 1px solid #dfb777;
+            border-radius: 20px;
+            &:hover {
+                color: #dfb777;
+                background-color: #fff;
+                border: 1px solid #000;
+                color: #000;
+            }
+        }
+        .meter-section {
+            margin-top: 20px;
+            .inner {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    font-family: "Oswald", sans-serif;
+                    margin: 0;
+                }
+                p {
+                    font-size: 20px;
+                    // font-weight: bold;
+                }
+            }
+        }
+    }
+    .profile-section {
+        display: flex;
+        justify-content: center;
+        .profile-card {
+            width: 100%;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            padding: 25px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            span {
+                height: 180px !important;
+                width: 180px !important;
+                img {
+                    border-radius: 50% !important;
+                }
+            }
+            .profile-details {
+                h6 {
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: "Oswald", sans-serif;
+                    margin-top: 20px;
+                }
+            }
+            .tech-wrapper {
+                span {
+                    height: 50px !important;
+                    width: 50px !important;
+                    margin-left: 10px !important;
+                    img {
+                        border-radius: 50% !important;
+                        cursor: pointer;
+                    }
+                }
+            }
+            table {
+                tr {
+                    td {
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
